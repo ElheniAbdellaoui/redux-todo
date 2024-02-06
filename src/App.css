@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.comp {
+  color: red;
+  text-decoration: line-through;
+}
+.uncomp {
+  color: green;
+  font-style: italic;
+}
+.parent {
+  border: 4px solid gray;
+  border-radius: 25px;
+  background-color: white;
+  margin: 25px;
+  padding: 25px;
+  box-shadow: -1px -3px 78px 29px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -3px 78px 29px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -3px 78px 29px rgba(0, 0, 0, 0.75);
+}
+
+.button {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+  background-color: cyan;
+  width: 50%;
+  margin-top: 35px;
+}
+.button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
